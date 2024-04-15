@@ -1,0 +1,93 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Реализация календаря",
+      "name": "",
+      "deadline": "2024-04-15T17:00:00.000Z",
+      "priority": "высокий",
+      "status": "В работе",
+      "performers": "",
+      "employee": "Яшкино"
+    },
+    {
+      "id": "da678535-773b-4d97-a7bf-f90987f0e072",
+      "title": "Чистка матрицы",
+      "name": "",
+      "deadline": "2024-04-24T17:00:00.000Z",
+      "priority": "adasfdasf",
+      "status": "Выполнена",
+      "performers": "",
+      "employee": "Авитов"
+    },
+    {
+      "id": "f2418d55-cc17-4903-b531-417bf265877a",
+      "title": "Реализация интернет-магазина",
+      "name": "",
+      "deadline": "2024-05-16T17:00:00.000Z",
+      "priority": "средний",
+      "status": "Создана",
+      "performers": "dddrdd",
+      "employee": "Иванов"
+    },
+    {
+      "id": "83914e72-9e2d-4c11-9211-d8e73ba25e13",
+      "title": "Подготовка фотографий",
+      "name": "",
+      "deadline": "2024-09-12T17:00:00.000Z",
+      "priority": "высокий",
+      "status": "В работе",
+      "performers": "",
+      "employee": "Иванов, Петров"
+    },
+    {
+      "id": "17298819-f9b6-4b78-bea0-79e4db80bea5",
+      "title": "Уборка",
+      "name": "",
+      "deadline": "2024-08-07T17:00:00.000Z",
+      "priority": "низкий",
+      "status": "Создана",
+      "performers": "",
+      "employee": "Демидов"
+    },
+    {
+      "id": "975aa47a-7f95-49b9-92e0-51e96647f972",
+      "title": "sfsddsdfsf",
+      "name": "",
+      "deadline": "2024-04-16T17:00:00.000Z",
+      "priority": "sdsdsd",
+      "status": "В работе",
+      "performers": "",
+      "employee": "sdsdsds"
+    },
+    {
+      "id": "65e60242-ea92-4566-8021-38a76f7364b3",
+      "title": "111111111111",
+      "name": "111111111111111",
+      "deadline": "2024-04-05T17:00:00.000Z",
+      "priority": "11111111111111",
+      "status": "Выполнена",
+      "performers": "",
+      "employee": "11111111111111111"
+    },
+    {
+      "id": "34b14d11-a8dd-43eb-bc41-33077063b3de",
+      "title": "retertet",
+      "name": "ertertetert",
+      "deadline": "2024-04-26T17:00:00.000Z",
+      "priority": "ertert",
+      "status": "работе",
+      "performers": "",
+      "employee": "rgererte"
+    },
+    {
+      "id": "ebc918a6-d803-409d-9425-21cc48e7019c",
+      "title": "",
+      "name": "",
+      "deadline": "2024-04-15T16:16:29.245Z",
+      "priority": "",
+      "status": "",
+      "performers": ""
+    }
+  ]
+}

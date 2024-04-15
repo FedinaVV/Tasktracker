@@ -1,0 +1,29 @@
+.container {
+  margin: 10px auto;
+  box-sizing: content-box;
+  padding: 0 10px;
+  color: #ffffff;
+
+  &__toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  &__tasks {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+}
+
+.mat-mdc-card {
+  max-width: 100%;
+  width: 400px;
+}
+
+
+
+

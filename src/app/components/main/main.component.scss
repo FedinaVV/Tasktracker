@@ -1,0 +1,17 @@
+.container {
+  height: 100%;
+  padding: 45px 270px;
+  background-image: url("../../../assets/img/back2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mat-mdc-outlined-button {
+  padding: 5px 30px;
+}
+.mat-mdc-outlined-button:not(:disabled), .mat-mdc-outlined-button:not(:disabled) {
+  color: #ffffff;
+ background-color: #f06a6a;
+  border-color: none;
+}

@@ -1,0 +1,39 @@
+.mat-card {
+  color: #ffffff;
+  margin: 10px;
+  max-width: 100%;
+  width: 550px;
+
+  &__input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 2px;
+    margin: 10px 0;
+  }
+
+  &__textarea {
+    width: 100%;
+    resize: none;
+    padding: 10px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+  }
+
+  &__select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 2px;
+    appearance: none;
+    margin: 10px 0;
+  }
+}
+
+.mat-mdc-card-header {
+  display: block;
+}
+
+.mdc-card__actions {
+  gap: 40px
+}
+

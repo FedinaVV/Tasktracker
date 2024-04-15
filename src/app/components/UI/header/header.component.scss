@@ -1,0 +1,63 @@
+.header {
+  padding: 20px 10px;
+  background-color: #424242;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+  &__list {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  &__logo {
+    font-size: 20px;
+    color: #fff;
+    user-select: none;
+    cursor: pointer;
+  }
+
+  &__btn-create {
+    position: relative;
+    padding: 10px 20px 10px 40px;
+    background-color: #56595c;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  &__btn-create:hover {
+    background-color: #9a9696;
+  }
+
+  .create-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #f06a6a;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 425px) {
+  .header {
+    gap: 20px;
+
+    &__list {
+      font-size: 15px;
+    }
+
+    &__logo {
+      font-size: 16px;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.dialog__span-status {
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  font-size: 20px;
+
+  &:hover{
+    background-color: cornflowerblue;
+  }
+}
