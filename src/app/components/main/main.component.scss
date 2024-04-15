@@ -15,3 +15,9 @@
  background-color: #f06a6a;
   border-color: none;
 }
+
+@media (max-width: 790px) {
+.container {
+  padding: 45px 50px;
+}
+}

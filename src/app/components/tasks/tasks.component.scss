@@ -71,6 +71,16 @@
 }
 
 
+@media (max-width: 480px) {
+  .dialog {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+  }
+}
+
+
+
 
 
 
