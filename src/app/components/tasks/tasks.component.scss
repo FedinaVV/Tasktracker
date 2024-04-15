@@ -24,6 +24,53 @@
   width: 400px;
 }
 
+.dialog {
+  position: relative;
+  max-width: 100%;
+  width: 460px;
+  height: 150px;
+  border: none;
+  border-radius: 5px;
+
+  &__title {
+    font-size: 22px;
+    margin-bottom: 40px;
+  }
+
+  &__span-status {
+    appearance: none;
+    border: 0;
+    background-color: #56595c;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none!important;
+  }
+
+  &__span-status:hover,
+  &__span-status:active,
+  &__span-status:focus,
+  {
+    background-color: #9a9696!important;
+  }
+
+  &__close {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    border-radius: 50%;
+    background-color: #56595c;
+    color: #ffffff;
+    padding: 2px 5px;
+  }
+}
+
+.dialog::backdrop {
+  background-color: rgba(0, 0, 0, .7);;
+}
+
+
 
 
 

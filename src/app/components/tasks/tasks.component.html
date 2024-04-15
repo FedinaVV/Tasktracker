@@ -38,7 +38,23 @@
       <mat-card-actions>
         <button mat-stroked-button [routerLink]="['/task', task.id]" (click)="choseTask(task)">Подробнее</button>
       </mat-card-actions>
+      <mat-card-actions>
+        <button mat-stroked-button (click)="openChangeStatusDialog(task)">Изменить статус</button>
+      </mat-card-actions>
     </mat-card>
+
+    <!-- Модалка выбора статуса извещений -->
+    <dialog #dialog_chose_status id="dialog_chose_status" class="dialog">
+      <h3 class="dialog__title">Изменить статус </h3>
+
+      <span class="dialog__span-status" *ngFor="let status of taskStatusesArray"
+            (click)="changeStatus(status)">{{status}}
+    </span>
+
+      <button type="button" class="dialog__close" (click)="dialog_chose_status.close()" aria-label="Close">
+        <span aria-hidden="true">✕</span>
+      </button>
+    </dialog>
   </div>
 
 

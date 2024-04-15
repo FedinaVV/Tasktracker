@@ -51,12 +51,18 @@ export class TasksComponent implements OnInit {
    */
   taskStatusesArray: [] = []
 
+  /**
+   * Модалка смены статуса
+   */
+  dialogChooseStatus: HTMLDialogElement;
+
 
 
   constructor(private tasksService: TasksService) {
   }
 
   ngOnInit(): void {
+    this.dialogChooseStatus = <HTMLDialogElement>document.getElementById("dialog_chose_status");
     this.tasksService.getTasks().subscribe({
       next: tasks => {
         this.downloadedTasks = tasks;
@@ -139,6 +145,28 @@ export class TasksComponent implements OnInit {
       });
     }
     this.filter.isDeadlineSortAscending = !this.filter.isDeadlineSortAscending;
+  }
+
+  /**
+   * Открыть модалку смены статуса
+   * @param task задача, у которой меняется статус
+   */
+  openChangeStatusDialog(task: Task) {
+    this.dialogChooseStatus.showModal();
+    this.taskForHandling.next(task);
+  }
+
+  /**
+   * Изменить статус задачи
+   * @param task задача, у которой меняется статус
+   */
+  changeStatus(status: string) {
+    const task: Task = this.taskForHandling.getValue();
+    task.status = status;
+    this.tasksService.updateTask(task).subscribe({
+      next: () => alert("Статус успешно обновлён"),
+      error: () => alert("Ошибка при изменении статуса")
+    });
   }
 }
 

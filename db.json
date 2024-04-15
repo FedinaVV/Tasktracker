@@ -16,7 +16,7 @@
       "name": "",
       "deadline": "2024-04-24T17:00:00.000Z",
       "priority": "adasfdasf",
-      "status": "Выполнена",
+      "status": "В работе",
       "performers": "",
       "employee": "Авитов"
     },
@@ -26,7 +26,7 @@
       "name": "",
       "deadline": "2024-05-16T17:00:00.000Z",
       "priority": "средний",
-      "status": "Создана",
+      "status": "В работе",
       "performers": "dddrdd",
       "employee": "Иванов"
     },
@@ -66,7 +66,7 @@
       "name": "111111111111111",
       "deadline": "2024-04-05T17:00:00.000Z",
       "priority": "11111111111111",
-      "status": "Выполнена",
+      "status": "Создана",
       "performers": "",
       "employee": "11111111111111111"
     },
@@ -79,15 +79,6 @@
       "status": "работе",
       "performers": "",
       "employee": "rgererte"
-    },
-    {
-      "id": "ebc918a6-d803-409d-9425-21cc48e7019c",
-      "title": "",
-      "name": "",
-      "deadline": "2024-04-15T16:16:29.245Z",
-      "priority": "",
-      "status": "",
-      "performers": ""
     }
   ]
 }
